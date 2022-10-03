@@ -2,11 +2,13 @@
 
 
 
-> Machine learning based traffic forecasting models make use of multi-source urban data to provide accurate predictions of city-wide traffic states. However, existing methods assume a reliable and unbiased forecasting environment, which is not always available in the wild.
-In this work, we investigate the vulnerability of spatiotemporal traffic forecasting models, where malicious parties may threaten the forecasting service via adversarial attacks.
-Specifically, instead of simultaneously attacking all geo-distributed data sources, an iterative gradient-based node saliency method is proposed to identify the time-dependent set of victim nodes.
-Furthermore, we devise a spatiotemporal projected gradient descent approach to generate real-valued adversarial traffic states under a  perturbation constraint.
-Meanwhile, we theoretically demonstrate the worst performance bound of adversarial traffic forecasting attacks. Extensive experiments on two real-world datasets show that the proposed two-step framework achieves up to 210$ performance degradation on spatiotemporal forecasting models under various attack settings.
+> Machine learning based traffic forecasting models leverage sophisticated spatiotemporal auto-correlations to provide accurate predictions of city-wide traffic states. 
+However, existing methods assume a reliable and unbiased forecasting environment, which is not always available in the wild.
+In this work, we investigate the vulnerability of spatiotemporal traffic forecasting models and propose a practical adversarial spatiotemporal attack framework.
+Specifically, instead of simultaneously attacking all geo-distributed data sources, an iterative gradient-guided node saliency method is proposed to identify the time-dependent set of victim nodes.
+Furthermore, we devise a spatiotemporal gradient descent based scheme to generate real-valued adversarial traffic states under a perturbation constraint.
+Meanwhile, we theoretically demonstrate the worst performance bound of adversarial traffic forecasting attacks.
+Extensive experiments on two real-world datasets show that the proposed two-step framework achieves up to 67.8% performance degradation on various advanced spatiotemporal forecasting models.
 Remarkably, we also show that adversarial training with our proposed attacks can significantly improve the robustness of spatiotemporal traffic forecasting models.
 
 This repository includes:
