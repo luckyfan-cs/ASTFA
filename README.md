@@ -1,4 +1,4 @@
-# Adversarial Attacks on Spatiotemporal Traffic Forecasting Models
+# Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models
 
 
 
@@ -61,7 +61,8 @@ If you find our code or paper useful, please cite our paper:
 ```bibtex
 @inproceedings{fan2022ASTFA,
  author =  {Fan LIU, Hao LIU, Wenzhao JIANG},
- title = {Adversarial Attacks on Spatiotemporal Traffic Forecasting Models},
+ title = {Practical Adversarial Attacks on Spatiotemporal
+Traffic Forecasting Models},
  booktitle = {In Proceedings of the Thirty-sixth Annual Conference on Neural Information Processing Systems (NeurIPS)},
  year = {2022}
  }
